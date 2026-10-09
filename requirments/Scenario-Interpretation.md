@@ -35,4 +35,3 @@ Material and machine commitments are visible before scheduling; acceptance and r
 | Stores coordinator | Material in the rack may already be committed |
 | Welder | Rework from a changed specification differs from correcting workshop error |
 
-**Scope boundary (from scenario):** job coordination and production records are in scope. CAD authoring, machine control, payroll and detailed accounting are out of scope
