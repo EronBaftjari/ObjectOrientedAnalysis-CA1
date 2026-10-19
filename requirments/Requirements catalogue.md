@@ -11,6 +11,8 @@
 | FR09 | System shall record Date in which Job was started   | Should | Manager |
 | FR010 | System shall show current status of each job  | Must | Manager |
 | FR011 | System shall allow manager to Search Customers job and status | Must | Manaer |
+| FR012 | System shall record which person performed the work linked to the job | should | Welder |
+
 
 </// Maybe add verification >
 
@@ -20,7 +22,7 @@ Used AI to point out Non fucnional requirments a few and Rationale
 
 | ID | Quality Category | Measurable requirement | 	Rationale |
 |---|------|-------|---|
-| NFR01 | Performance | System shall display jobs current status within 3 seconds of opening it  | The scenario says workshop staff need “specifications and safety notes but not all customer payment details” |
+| NFR01 | Performance | System shall display jobs current status within 3 seconds of opening it  | System can display contents faster and will be easy for Staff to read  |
 | NFR02 | Security | All Staff accounts shall be blocked form viewing customers Payment Details | Scenario Says workshop staff need "Specification and safety notes but not all customer payment Details" |
 | NFR03 | Availability | System shall be available 99% of workshop opening hours  |If system is down staff can go back to job cards   |
 | NFR04 | Usability | System shall be able to record a completed operation in under 1 minute   | “Paper job cards may lag behind the physical work”. If recording is slow, workers won’t keep it up to date  |
