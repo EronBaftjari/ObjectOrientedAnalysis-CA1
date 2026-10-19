@@ -12,7 +12,7 @@
 | FR010 | System shall show current status of each job  | Must | Manager |
 | FR011 | System shall allow manager to Search Customers job and status | Must | Manaer |
 
-
+</// Maybe add verification >
 
 
 
