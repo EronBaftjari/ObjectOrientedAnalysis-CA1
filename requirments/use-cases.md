@@ -26,3 +26,20 @@ Staff  interact with the system like record Information of jobs and customers
 |Record rework Cause | Staff | Start date , Who did the job ,Mark what the issue was  | FR09,FR12 |
 | Alert Customer When limit is broken | Staff | Alert Customer that Spending limit is Broken  | FR07 |
 
+
+
+
+**AI use in this section**
+
+| What I used AI for | How it helped me |
+|---|---|
+| Laying out the use-case model | Showed me how to set out the actor table and use-case catalogue in the same format as the Session 4 lab |
+| Understanding actors and stakeholders | Explained that only people who use the system directly are actors, and that people like the customer are offstage stakeholders |
+| Deciding who goes on the diagram | Helped me see that Customer, Supplier and External Providers don't use the system, so they shouldn't be on the use-case diagram |
+| Checking use cases against my requirements | Pointed out that FR08 was missing, and that FR09 and FR12 belonged in a different use case to rework |
+| Spotting things that aren't use cases | Explained that FR07 (the spending limit alert) is something the system does by itself, not a goal a person has, so it belongs inside another use case |
+| Naming use cases | Showed me how to name use cases as actor goals (e.g. Check Job Status instead of Show Status of Jobs) |
+| Naming the system boundary | Pointed out that the rubric asks for a named boundary, so I gave the system a clear name |
+| Writing the use-case diagram | Helped me write the PlantUML code for the boundary, actors and use cases |
+
+Using AI this way helped me check my work against the lab and the rubric, find gaps between my requirements and use cases, and understand the reasons behind each modelling choice.
