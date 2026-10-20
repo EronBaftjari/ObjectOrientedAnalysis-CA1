@@ -14,11 +14,10 @@
 | FR012 | System shall record which person performed the work linked to the job | should | Welder |
 
 
-</// Maybe add verification >
 
 
 
-Used AI to point out Non fucnional requirments a few and Rationale 
+
 
 | ID | Quality Category | Measurable requirement | 	Rationale |
 |---|------|-------|---|
@@ -29,3 +28,13 @@ Used AI to point out Non fucnional requirments a few and Rationale
 | NFR05 | Data Integerity | System shall categorize entries as Workshop error or Customer approved prior to record commitment   | A welder noted that "rework caused by a changed specification is not the same as correcting our error"
 | NFR06 | Usability | All Operations on System when Completed can have green Color on text or red | Information can be easier to read for Staff using the System |
  
+
+
+**AI use in this section**
+
+| What I used AI for | How it helped me |
+|---|---|
+| Suggesting non-functional requirements | Gave me ideas for quality categories like performance, security, availability, usability and data integrity |
+| Writing the rationale for each NFR | Showed me how to explain why each requirement matters and link it to the scenario |
+| Making NFRs measurable | Showed me which ones couldn't be measured, like NFR06, and how to fix them |
+| Checking my functional requirements | Pointed out typos, mismatched IDs and wording that didn't line up between requirements |
