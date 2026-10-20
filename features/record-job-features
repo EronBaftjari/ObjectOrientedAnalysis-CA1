@@ -1,1 +1,60 @@
 
+
+
+
+
+Feature: Record Job enquirys
+  Scenario: Staff records job with Details 
+    Given a customer called "Blert Baftjari" comes in with a new Job enquiry
+    When Staff record the job with Customers details and Jobs description
+    Then job is recorded with a job number
+    and job is linked to "Blert Baftjari"
+    and job has status "Open"
+
+
+Feature: Alert Customer Spending Limit
+    Scenario: Customers Specified Spending limit is Going overboard
+      Given Customers price cap for job 10 is 500
+      and staff record 100 more is need to complete work
+      then Staff record 100 is needed to complete it
+      and Customer is sent Quotation and is waiting for approval
+      and job is marked as Incomplete
+
+
+Feature: Search Customer
+    Scenario : Manager Searching customers job to see status
+    Given Manager searched Customers name 
+    and Jobs name
+    When Customer wants to know status of their jobs
+    Then Manger is given details of jobs and their status
+
+
+Feature: Inspector Marks Job 
+    Scenario : Inspector Inspects completed job
+    Given Inspector is notified to inspect  jobs
+    When jobs are completed
+    Then Inspecor marks job as Pass/Fail
+
+Feature: Customers Approval
+    Scenario: Customer Approves Spending limit
+    Given : Job has status "Waiting for Approval"
+    When  customer approves and staff record spending limit 
+    then job has status "Approved"
+    and job has new spending limit
+    
+    
+    
+//Comment of AI usage
+// Asked AI to lay out the best way to write these
+gave me good examples how it should be done 
+marked out good examples to write about example in my functioncal requirments 
+give me some suggestions on my wording also of these 
+      
+      
+
+
+
+
+
+
+
