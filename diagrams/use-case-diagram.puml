@@ -1,1 +1,26 @@
+@startuml
+left to right direction
+actor Staff
+actor Manager
+actor Inspector
 
+rectangle "Job Coordination Service" {
+  usecase "Record Job Enquiry" as UC1
+  usecase "Record Customer Approval" as UC2
+  usecase "Record Work on Job" as UC3
+  usecase "Record Rework Cause" as UC4
+  usecase "Record Component Collection" as UC5
+  usecase "Allocate Materials to Job" as UC6
+  usecase "Check Job Status" as UC7
+  usecase "Inspect Component" as UC8
+}
+
+Staff --> UC1
+Staff --> UC2
+Staff --> UC3
+Staff --> UC4
+Staff --> UC5
+Manager --> UC6
+Manager --> UC7
+Inspector --> UC8
+@enduml
