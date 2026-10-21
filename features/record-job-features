@@ -1,8 +1,3 @@
-
-
-
-
-
 Feature: Record Job enquirys
   Scenario: Staff records job with Details 
     Given a customer called "Blert Baftjari" comes in with a new Job enquiry
@@ -33,17 +28,26 @@ Feature: Inspector Marks Job
     Scenario : Inspector Inspects completed job
     Given Inspector is notified to inspect  jobs
     When jobs are completed
-    Then Inspecor marks job as Pass/Fail
+    Then Inspecor marks job as Pass and Job status is updated and ready to be collected
 
-Feature: Customers Approval
-    Scenario: Customer Approves Spending limit
-    Given : Job has status "Waiting for Approval"
-    When  customer approves and staff record spending limit 
-    then job has status "Approved"
-    and job has new spending limit
-    
-    
-    
+
+Feature: Customer approval
+    Scenario: Customer approves the spending limit
+    Given the job has status "Waiting for Approval"
+    And the job has a spending limit of 500
+    When the customer approves a new spending limit of 600
+    Then the job has status "Approved"
+    And the job has a spending limit of 600
+
+<--Alternative-->
+    Scenario: Customer disapproves the spending limit
+    Given the job has status "Waiting for Approval"
+    And the job has a spending limit of 500
+    When the customer disapproves the new spending limit
+    Then the job has status "Disapproved"
+    And the job has a spending limit of 500
+  
+  
 //Comment of AI usage
 // Asked AI to lay out the best way to write these
 gave me good examples how it should be done 
