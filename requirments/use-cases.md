@@ -4,7 +4,7 @@ Staff  interact with the system like record Information of jobs and customers
 **Actors**
 
 
-// --< Asked Ai to Lay out the Layout of the answers for me and give me details that i might have missed   >-- \\
+
  |Actor/StakeHolder | Type | Goal | Direct ? |
  |----|----|-------|----|
 |Staff| Primary StakeHolder | Records job specifications, quotations, customer approvals, faults  and completion estimates.  | Yes |
