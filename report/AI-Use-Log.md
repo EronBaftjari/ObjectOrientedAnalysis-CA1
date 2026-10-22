@@ -1,6 +1,6 @@
 # AI Use Log
 
-**Tool:** Claude (Anthropic)/Chat GPT | **Level:** 3 | **Date:** 22 October 2026
+**Tool:** Claude AI/Chat GPT | **Level:** 3 | **Date:** 22 October 2026
 
 I used AI to explain concepts and to check my analysis against the Munster Engineering Workshop scenario. Below are the most significant examples.
 
@@ -13,3 +13,7 @@ I used AI to explain concepts and to check my analysis against the Munster Engin
 | Use case | Review RB01 Record Job Enquiry | Uploaded my use case | AI suggested renaming "Item name" to "Component name". Customers bring in an item, not a component | **Rejected** the rename. **Accepted** fixes to the job status and phone number |
 | Gherkin and traceability matrix | Review scenarios and link Must Haves | "show me how to complete this part" | Checked every Must Have had a problem, scenario and domain class. FR06 had no scenario | **Modified.** AI wrote the FR06 scenario. Matrix limited to Must Haves using my own scenario names |
 | Functional requirements | Review my requirements | Pasted my functional requirements table (FR01–FR012) to build the traceability matrix | AI pointed out my IDs weren't the same format (FR010 instead of FR10), spelling mistakes, and that FR09 (start date) didn't match the domain model. I checked each one against my FR table and domain model | **Modified.** Fixed the IDs and spelling, and added startDate to Job to match FR09 |
+
+
+AI Pointed Out the Risks that may be As I read though the Scenario and asked AI to give me its inputs Along with what possible answers could be 
+AI also helped me understand how to layout my answers on Each section i wrote 
