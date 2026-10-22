@@ -1,10 +1,25 @@
+
+
+Here are your scenarios with the fixes made. I kept your wording wherever it was fine.
+
+gherkin
+Feature: Record job enquiries
+  Scenario: Staff record a job with details
+    Given a customer called "Blert Baftjari" comes in with a new job enquiry
+    When staff record the job with the customer's details and the job description
+    Then the job is recorded with a job number
+    And the job is linked to "Blert Baftjari"
+    And the job has status "Enquiry"
+
+
+
 Feature: Record Job enquirys
   Scenario: Staff records job with Details 
     Given a customer called "Blert Baftjari" comes in with a new Job enquiry
     When Staff record the job with Customers details and Jobs description
     Then job is recorded with a job number
     and job is linked to "Blert Baftjari"
-    and job has status "Open"
+    and job has status "Enquriy"
 
 
 Feature: Alert Customer Spending Limit
