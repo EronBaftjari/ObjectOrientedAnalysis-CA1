@@ -40,7 +40,7 @@
 
 
 
-//Used AI to Refine and give me other suggestions on some Terms what they could be and kept note of it 
+ 
 
 What’s weak
 Every evidence s
