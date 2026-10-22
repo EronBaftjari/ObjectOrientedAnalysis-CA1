@@ -1,1 +1,82 @@
+@startuml
+hide methods
+hide circle
 
+class Customer {
+  customerName
+  emailAddress
+  phoneNumber
+}
+
+class Job {
+  description
+  status
+  targetDate
+  scheduledDate
+  completionDate
+  notes
+}
+
+class Quotation {
+  price
+  quotationType
+}
+
+class Approval {
+  approvalMethod
+  spendingLimit
+}
+
+class Specification {
+  version
+}
+
+class Drawing {
+  version
+}
+
+class Material {
+  materialName
+  source
+}
+
+class Component {
+  componentName
+  fault
+  status
+  collectedDate
+}
+
+class Operation {
+  operationType
+  status
+}
+
+class Rework {
+  reworkCause
+}
+
+class Machine {
+  machineName
+  status
+}
+
+class Employee {
+  employeeName
+}
+
+Customer "1" -- "0..*" Job : requests
+Job "1" -- "0..*" Quotation : is priced by
+Quotation "1" -- "0..1" Approval : is accepted through
+Job "1" -- "0..*" Specification : is defined by
+Job "1" -- "0..*" Drawing : is illustrated by
+Job "0..*" -- "0..*" Material : uses
+Job "1" -- "1..*" Component : contains
+Component "1" -- "0..*" Operation : requires
+Component "1" -- "0..*" Rework : needs
+Operation "0..*" -- "0..1" Machine : runs on
+Employee "0..1" -- "0..*" Operation : performs
+Employee "0..1" -- "0..*" Rework : carries out
+
+
+@enduml
