@@ -1,8 +1,3 @@
-
-
-Here are your scenarios with the fixes made. I kept your wording wherever it was fine.
-
-gherkin
 Feature: Record job enquiries
   Scenario: Staff record a job with details
     Given a customer called "Blert Baftjari" comes in with a new job enquiry
