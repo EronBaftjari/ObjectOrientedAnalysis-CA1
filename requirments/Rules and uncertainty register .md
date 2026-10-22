@@ -47,8 +47,7 @@
 
 
 
-//AI Pointed Out the Risks that may be As I read though the Scenario and asked AI to give me its inputs Along with what possible answers could be 
-//AI also helped me understand how to layout my answers on Each section i wrote 
+
 
 
 
