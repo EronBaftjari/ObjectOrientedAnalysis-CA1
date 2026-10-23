@@ -58,14 +58,6 @@ Feature: Customer approval
     And the job has a spending limit of 500
   
   
-//Comment of AI usage
-// Asked AI to lay out the best way to write these
-gave me good examples how it should be done 
-marked out good examples to write about example in my functioncal requirments 
-give me some suggestions on my wording also of these 
-      
-      
-
 
 
 
